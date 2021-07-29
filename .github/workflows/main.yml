@@ -35,7 +35,7 @@ jobs:
             -e user_conn_limit=0 \
             -e user_speed_limit=0 \
             sprov065/soga
-    -
-     - name: docker logs
-       run: |
-             sudo docker logs -f -t --tail 10 soga-2
+            
+    - name: docker logs
+      run: |
+            sudo docker logs -f -t --tail 10 soga-2
